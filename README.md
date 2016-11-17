@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/lzerma/futurefinance.svg?branch=master)](https://travis-ci.org/lzerma/futurefinance)
+
 # SAILS REST API - Future Finance
 
 a [Sails](http://sailsjs.org) rest API for Future Finance.
