@@ -3,10 +3,10 @@
 a [Sails](http://sailsjs.org) rest API for Future Finance.
  
 ## Testing
-To be able to run the test properly you must install all the packages. To do so, execute: `npm install` on the 
+To be able to run the tests properly you must install all the packages. To do so, execute: `npm install` on the 
 project root folder.
 
-After, run `npm test` and the test will run through all available tests on the project.
+After, run `npm test` and it will run through all available tests on the project.
  
 All the tests suites are localized in _test/_. 
 
