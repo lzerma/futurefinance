@@ -4,7 +4,9 @@
 
 a [Sails](http://sailsjs.org) rest API for Future Finance.
 
-## Node Version 
+## Node Version
+ 
+ You should use any version higher than __node-4.0__ to run the project.
  
 ## Testing
 To be able to run the tests properly you must install all the packages. To do so, execute: `npm install` on the 
