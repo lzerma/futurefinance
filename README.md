@@ -23,15 +23,6 @@ for you all infos about the server created by __sails__
 
 ## Using
 
- - Getting all customers: 
-    - `curl -X GET -H "Content-Type: application/json" "http://localhost:1337/customer"`
- 
- - Getting all customer and sorting by a specific property:
-    - `curl -X GET -H "Content-Type: application/json" "http://localhost:1337/customer?sort=<property>+<asc|desc>"`  
-  
- - Getting a specific customer:
-    - `curl -X GET -H "Content-Type: application/json" "http://localhost:1337/customer/{id}"`
- 
  - Creating a new customer:
     - `curl -X POST -H "Content-Type: application/json" -d '{
         "last_name": "Chuck",
@@ -43,8 +34,15 @@ for you all infos about the server created by __sails__
     - `curl -X POST -H "Content-Type: application/json" -d '{
          "last_name": "Junior"
        }' "http://localhost:1337/customer/{id}"`
+ 
+ - Getting all customers: 
+    - `curl -X GET -H "Content-Type: application/json" "http://localhost:1337/customer"`
+ 
+ - Getting all customer and sorting by a specific property:
+    - `curl -X GET -H "Content-Type: application/json" "http://localhost:1337/customer?sort=<property>+<asc|desc>"`  
+  
+ - Getting a specific customer:
+    - `curl -X GET -H "Content-Type: application/json" "http://localhost:1337/customer/{id}"`
         
  - Deleting a customer: 
     - `curl -X DELETE  "http://localhost:1337/customer/{id}"`
-    
-    
