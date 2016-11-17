@@ -3,6 +3,8 @@
 # SAILS REST API - Future Finance
 
 a [Sails](http://sailsjs.org) rest API for Future Finance.
+
+## Node Version 
  
 ## Testing
 To be able to run the tests properly you must install all the packages. To do so, execute: `npm install` on the 
