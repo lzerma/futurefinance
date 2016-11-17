@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - 4.3.2
+branches:
+  only:
+  - master
+sudo: required
+services:
+  - docker
